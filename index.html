@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - U.S. Florange-Ébange</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* ---- HEADER ---- */
+    header {
+      background-color: #ff6600;
+      color: white;
+      padding: 10px 0 0 0;
+      text-align: center;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      flex-wrap: wrap;
+    }
+
+    .header-side {
+      font-weight: bold;
+      font-size: 0.95rem;
+      white-space: nowrap;
+      text-align: center;
+      flex: 1;
+    }
+
+    .header-center {
+      flex: 2;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header-center img {
+      width: 100px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 5px auto;
+      border: 2px solid white;
+    }
+
+    .header-center h1 {
+      margin: 5px 0 3px 0;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .slogan {
+      font-style: italic;
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    /* ---- NAVIGATION ---- */
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      display: block;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ff6600;
+    }
+
+    /* ---- ACCUEIL CONTENT ---- */
+    .hero {
+      background-color: #ff6600;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .stadium {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    .stadium img {
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    /* ---- FOOTER ---- */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ff6600;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      .header-top {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .header-side {
+        flex: none;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-top">
+      <div class="header-side">
+        📍 Florange (57)
+      </div>
+
+      <div class="header-center">
+        <img src="https://raw.githubusercontent.com/Mohamed57100/us-florange/refs/heads/main/465817372_1057114252579709_1675475728144681515_n.jpg" alt="Logo U.S. Florange">
+        <h1>U.S. Florange-Ébange</h1>
+        <p class="slogan">⚽ Force, Passion et Esprit d’équipe depuis 1948 ⚽</p>
+      </div>
+
+      <div class="header-side">
+        ✉️ florange.us@moselle.lgef.fr<br>
+        📞 06 50 87 52 67
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="equipes.html">Équipes</a>
+    <a href="organigramme.html">Organigramme</a>
+    <a href="boutique.html">Boutique</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- SECTION PRINCIPALE -->
+  <section class="hero">
+    <h2>Bienvenue sur le site officiel de l’U.S. Florange-Ébange</h2>
+    <p>Le club de football de Florange-Ébange vous accueille dans une ambiance conviviale et passionnée. Découvrez nos équipes, nos entraîneurs, et toute la vie du club à travers ce site !</p>
+  </section>
+
+  <!-- IMAGE DU STADE -->
+  <div class="stadium">
+    <img src="https://raw.githubusercontent.com/Mohamed57100/us-florange/refs/heads/main/Capture%20d'%C3%A9cran%202025-11-12%20151009.png" alt="Stade de Florange">
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 U.S. Florange-Ébange | 
+    <a href="https://www.instagram.com/us_florange_ebange/">Instagram</a> | 
+    <a href="https://www.facebook.com/UnionSportiveFlorangeEbange">Facebook</a>
+  </footer>
+
+</body>
+</html>
